@@ -1,12 +1,14 @@
 * {
     border: 1px solid black;
     box-sizing: border-box; 
-    color: #fff;
+    /* color: #fff; */
 }
 
-body {
+/* body {
     background-image: url('./harley-quinn.jpg');
-}
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
 
 .kulso {
     float: left;
@@ -19,4 +21,24 @@ body {
 
 .masodik {
     background-color: rgba(0, 0, 255, 0.5);
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+.tarto {
+    position: relative;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belso {
+    position: absolute;
+    width: 20%;
+    height: 25px;
+    background-color: blue;
 }
