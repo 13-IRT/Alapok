@@ -1,0 +1,22 @@
+* {
+    border: 1px solid black;
+    box-sizing: border-box; 
+    color: #fff;
+}
+
+body {
+    background-image: url('./harley-quinn.jpg');
+}
+
+.kulso {
+    float: left;
+    width: 50%;
+}
+
+.elso {
+    background-color: rgba(0, 255,0, 0.5);
+}
+
+.masodik {
+    background-color: rgba(0, 0, 255, 0.5);
+}
